@@ -8,9 +8,8 @@
 using UnityEngine;
 using System.Collections;
 
-
 [AddComponentMenu("Camera-Control/3dsMax Camera Style")]
-public class maxCamera : MonoBehaviour
+public class maxCamera: MonoBehaviour
 {
 	public Transform target;
 	public Vector3 targetOffset;
@@ -66,13 +65,8 @@ public class maxCamera : MonoBehaviour
      */
 	void LateUpdate()
 	{
-		// If Control and Alt and Middle button? ZOOM!
-		if (Input.GetMouseButton(2) && Input.GetKey(KeyCode.LeftAlt) && Input.GetKey(KeyCode.LeftControl))
-		{
-			desiredDistance -= Input.GetAxis("Mouse Y") * Time.deltaTime * zoomRate*0.125f * Mathf.Abs(desiredDistance);
-		}
 		// If middle mouse and left alt are selected? ORBIT
-		else if (Input.GetMouseButton(2) && Input.GetKey(KeyCode.LeftAlt))
+		if (Input.GetMouseButton(0))//&& Input.GetKey(KeyCode.LeftAlt))
 		{
 			xDeg += Input.GetAxis("Mouse X") * xSpeed * 0.02f;
 			yDeg -= Input.GetAxis("Mouse Y") * ySpeed * 0.02f;
@@ -87,14 +81,6 @@ public class maxCamera : MonoBehaviour
 			
 			rotation = Quaternion.Lerp(currentRotation, desiredRotation, Time.deltaTime * zoomDampening);
 			transform.rotation = rotation;
-		}
-		// otherwise if middle mouse is selected, we pan by way of transforming the target in screenspace
-		else if (Input.GetMouseButton(2))
-		{
-			//grab the rotation of the camera so we can move in a psuedo local XY space
-			target.rotation = transform.rotation;
-			target.Translate(Vector3.right * -Input.GetAxis("Mouse X") * panSpeed);
-			target.Translate(transform.up * -Input.GetAxis("Mouse Y") * panSpeed, Space.World);
 		}
 		
 		////////Orbit Position

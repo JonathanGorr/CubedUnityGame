@@ -1,8 +1,10 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\MouseOrbitZoom.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Level1\Scripts\FauxGravity\PlayerController.cs">
     <Files>
-      <File FileName="Assets\MouseOrbitZoom.cs" Line="8" Column="19" />
+      <File FileName="Assets\Level1\Scripts\maxCameraRotation.cs" Line="75" Column="69" />
+      <File FileName="Assets\Level1\Scripts\BallRolling.js" Line="12" Column="22" />
+      <File FileName="Assets\Level1\Scripts\FauxGravity\PlayerController.cs" Line="14" Column="116" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
