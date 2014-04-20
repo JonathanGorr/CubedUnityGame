@@ -1,10 +1,8 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Level1\Scripts\SplashScreenLoad.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\FauxGravity\PlayerController.cs">
     <Files>
-      <File FileName="Assets\Level1\Scripts\FauxGravity\FauxGravityBody.cs" Line="10" Column="17" />
-      <File FileName="Assets\Level1\Scripts\FauxGravity\FauxGravityAttractor.cs" Line="6" Column="28" />
-      <File FileName="Assets\Level1\Scripts\SplashScreenLoad.cs" Line="20" Column="27" />
+      <File FileName="Assets\Scripts\FauxGravity\PlayerController.cs" Line="13" Column="5" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
