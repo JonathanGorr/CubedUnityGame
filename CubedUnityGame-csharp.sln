@@ -5,6 +5,8 @@ Project("{57E03AAF-2B4D-A608-D4BB-066B91181407}") = "CubedUnityGame", "Assembly-
 EndProject
 Project("{57E03AAF-2B4D-A608-D4BB-066B91181407}") = "CubedUnityGame", "Assembly-CSharp-vs.csproj", "{43694A04-8616-D25B-FB4B-C6F3A4BB393F}"
 EndProject
+Project("{57E03AAF-2B4D-A608-D4BB-066B91181407}") = "CubedUnityGame", "Assembly-CSharp-Editor-vs.csproj", "{C3A69E4B-2D52-BAC5-107E-218865D03162}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,11 +21,15 @@ Global
 		{43694A04-8616-D25B-FB4B-C6F3A4BB393F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{43694A04-8616-D25B-FB4B-C6F3A4BB393F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{43694A04-8616-D25B-FB4B-C6F3A4BB393F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3A69E4B-2D52-BAC5-107E-218865D03162}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3A69E4B-2D52-BAC5-107E-218865D03162}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3A69E4B-2D52-BAC5-107E-218865D03162}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3A69E4B-2D52-BAC5-107E-218865D03162}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-																																																GlobalSection(MonoDevelopProperties) = preSolution
+																																																										GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = Assembly-CSharp.csproj
 		Policies = $0
 		$0.TextStylePolicy = $1
