@@ -24,7 +24,7 @@ function LateUpdate () {
 	}
 	if(Input.GetKey("a"))
 	{
-		this.transform.Rotate(0,-this.TurnSpeed,0);
+		this.transform.Rotate(0,-this.TurnSpeed * ,0);
 	}
 	if (Input.GetKey("d"))
 	{

@@ -46,6 +46,7 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\CameraZoomScroll.cs" />
      <Compile Include="Assets\Scripts\FauxGravity\FauxGravityAttractor.cs" />
      <Compile Include="Assets\Scripts\FauxGravity\FauxGravityBody.cs" />
      <Compile Include="Assets\Scripts\FauxGravity\Jumping.cs" />
@@ -54,9 +55,9 @@
      <Compile Include="Assets\Scripts\SplashScreenDelay.cs" />
      <Compile Include="Assets\Scripts\SplashScreenLoad.cs" />
      <Compile Include="Assets\Scripts\SwitchPlanets.cs" />
+     <Compile Include="Assets\Scripts\maxCamera.cs" />
      <Compile Include="Assets\Scripts\maxCameraRotation.cs" />
      <Compile Include="Assets\Scripts\rotateCube.cs" />
-     <Compile Include="Assets\maxCamera.cs" />
      <None Include="Assets\Hard Surface Free\HardSurface Shaders\HardSurfacePro Hidden Front Cut Out Specular.shader" />
      <None Include="Assets\Hard Surface Free\HardSurface Shaders\HardSurface Free Cut Out Opaque Bump.shader" />
      <None Include="Assets\Hard Surface Free\HardSurface Shaders\HardSurfacePro Hidden Front Transparent.shader" />
@@ -68,6 +69,7 @@
      <None Include="Assets\Hard Surface Free\HardSurface Shaders\HardSurface Free Cut Out Diffuse.shader" />
      <None Include="Assets\Hard Surface Free\HardSurface Shaders\HardSurface Free Cut Out Opaque Diffuse.shader" />
      <None Include="Assets\Scripts\2SidedMat.shader" />
+     <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
      <None Include="Assets\Hard Surface Free\HardSurface Shaders\HardSurfacePro Hidden Front Opaque Bump.shader" />
      <None Include="Assets\Hard Surface Free\HardSurface Shaders\HardSurface Free Transparent.shader" />
      <None Include="Assets\Hard Surface Free\HardSurface Shaders\HardSurfacePro Hidden Front Opaque Diffuse.shader" />
