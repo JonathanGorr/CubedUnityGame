@@ -3,7 +3,7 @@
 var destination : Transform;
  
 function OnTriggerEnter(other : Collider) {
-    other.transform.position = destination.position;
-    
-    
+    if (other.tag == "Player") {
+        other.transform.position = destination.position;
+    }
 }
