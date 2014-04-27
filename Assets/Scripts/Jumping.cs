@@ -24,22 +24,17 @@ public class Jumping : MonoBehaviour {
 	}
 	
 	void Update() {
-		direction = new Vector3(Input.GetAxisRaw("Horizontal"),0,Input.GetAxisRaw("Vertical"));
 		jumpRestRemaining -= Time.deltaTime; // Counts down the JumpRest Remaining
-		
-		if (direction.magnitude > 1) { 
-			direction = direction.normalized; // stops diagonal movement from being faster than straight movement
-		}
 		
 		if (Physics.Raycast (transform.position, -transform.up, out hit)) {
 			distToGround = hit.distance;
 			Debug.DrawLine (transform.position, hit.point, Color.cyan);
 		}
 		
-		if (Input.GetButton ("Jump") && distToGround < (characterHeight * .5) && jumpRestRemaining < 0) { // If the jump button is pressed and the ground is less the 1/2 the hight of the character away from the character:
+		if (Input.GetKeyDown("space") && distToGround < (characterHeight * .5) && jumpRestRemaining < 0) { // If the jump button is pressed and the ground is less the 1/2 the hight of the character away from the character:
 			jumpRestRemaining = jumpRest; // Resets the jump counter
 			rigidbody.AddRelativeForce (Vector3.up * jumpSpeed * 100); // Adds upward force to the character multitplied by the jump speed, multiplied by 100
-			//animation.Play ("Jumping");
+			animation.Play ("Jumping");
 		}
 	}
 	
