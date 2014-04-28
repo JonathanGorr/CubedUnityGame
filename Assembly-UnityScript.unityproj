@@ -53,6 +53,7 @@
      <Compile Include="Assets\Scripts\ForwardAxisMovementandRotation.js" />
      <Compile Include="Assets\Scripts\GroundCheck.js" />
      <Compile Include="Assets\Scripts\Teleporting\Teleportation.js" />
+     <Compile Include="Assets\Scripts\Transitions\EndScreen.js" />
      <None Include="Assets\Hard Surface Free\HardSurface Shaders\HardSurfacePro Hidden Front Cut Out Specular.shader" />
      <None Include="Assets\Hard Surface Free\HardSurface Shaders\HardSurface Free Cut Out Opaque Bump.shader" />
      <None Include="Assets\Hard Surface Free\HardSurface Shaders\HardSurfacePro Hidden Front Transparent.shader" />

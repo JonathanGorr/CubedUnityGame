@@ -52,10 +52,9 @@
      <Compile Include="Assets\Scripts\FauxGravity\FauxGravityBody.cs" />
      <Compile Include="Assets\Scripts\FauxGravity\PlayerController.cs" />
      <Compile Include="Assets\Scripts\Jumping.cs" />
-     <Compile Include="Assets\Scripts\SplashScreen.cs" />
-     <Compile Include="Assets\Scripts\SplashScreenDelay.cs" />
-     <Compile Include="Assets\Scripts\SplashScreenLoad.cs" />
      <Compile Include="Assets\Scripts\SwitchPlanets.cs" />
+     <Compile Include="Assets\Scripts\Transitions\SplashScreenLoad.cs" />
+     <Compile Include="Assets\Scripts\Transitions\ToSplashScreen.cs" />
      <Compile Include="Assets\Scripts\maxCamera.cs" />
      <Compile Include="Assets\Scripts\maxCameraRotation.cs" />
      <Compile Include="Assets\Scripts\rotateCube.cs" />

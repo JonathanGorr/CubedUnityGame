@@ -5,11 +5,6 @@ var TurnSpeed : float = 2.0;
 
 function LateUpdate () {
 	
-	//if nothing is pressed, stand idle
-	if(Input.anyKey == false)
-	{
-	}
-	
 	//movement & rotation
 	if(Input.GetKey("w"))
 	{

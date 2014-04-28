@@ -5,6 +5,12 @@ function Update () {
 	for (var state : AnimationState in animation) {
     	state.speed = 0.5;
 	} 
+	
+	//if nothing is pressed, stand idle
+	if(Input.anyKey == false)
+	{
+		animation.Play("Stand");
+	}
 
 	if(Input.GetKey("w")){
 		//animation["Running"].speed = 1;
@@ -23,6 +29,7 @@ function Update () {
 	}
 	else
 	{
-		animation.CrossFade("Stand");
+		//animation.StopAll();
+		animation.Play("Stand");
 	}
 }
